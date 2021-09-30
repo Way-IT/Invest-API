@@ -1,0 +1,7 @@
+C:\Users\19162\Documents\MVC_REST_API\Commander\obj\Debug\net5.0\Commander.csproj.AssemblyReference.cache
+C:\Users\19162\Documents\MVC_REST_API\Commander\obj\Debug\net5.0\Commander.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19162\Documents\MVC_REST_API\Commander\obj\Debug\net5.0\Commander.AssemblyInfoInputs.cache
+C:\Users\19162\Documents\MVC_REST_API\Commander\obj\Debug\net5.0\Commander.AssemblyInfo.cs
+C:\Users\19162\Documents\MVC_REST_API\Commander\obj\Debug\net5.0\Commander.csproj.CoreCompileInputs.cache
+C:\Users\19162\Documents\MVC_REST_API\Commander\obj\Debug\net5.0\Commander.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\19162\Documents\MVC_REST_API\Commander\obj\Debug\net5.0\Commander.MvcApplicationPartsAssemblyInfo.cache
