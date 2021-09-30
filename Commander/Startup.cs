@@ -28,6 +28,8 @@ namespace Commander
         {
 
             services.AddControllers();
+
+            services.AddScoped<ICommanderRepo, MockCommanderRepo>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Commander", Version = "v1" });
