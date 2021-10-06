@@ -29,11 +29,11 @@ namespace Commander
 
             services.AddControllers();
 
-            services.AddScoped<ICommanderRepo, MockCommanderRepo>();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Commander", Version = "v1" });
-            });
+            // юservices.AddScoped<ICommanderRepo, MockCommanderRepo>();
+            // services.AddSwaggerGen(c =>
+            // {
+            //     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Commander", Version = "v1" });
+            // });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,8 +42,8 @@ namespace Commander
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Commander v1"));
+                // app.UseSwagger();
+                // app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Commander v1"));
             }
 
             app.UseHttpsRedirection();
